@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+
+.line-1 {
+  position: relative;
+  font-weight: 1600;
+  margin: 0 auto;
+  border-right: 2px solid rgba(2, 2, 2, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 31em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #e3f2fd;
+}
+.fa.fa-edit {
+  color: #18a2b9;
+}
+
+.list-group-item.delete:hover {
+  cursor: -webkit-grab;
+  background-color: pink;
+}
+
+.list-group-item.update:hover {
+  cursor: -webkit-grab;
+  background-color: gainsboro;
+}
+
+.list-group-item.board:hover {
+  cursor: -webkit-grab;
+  background-color: gainsboro;
+}
+
+.fa.fa-minus-circle {
+  color: red;
+}
+
+.landing {
+  font-family: "Farro", sans-serif;
+  position: relative;
+  /* background: url("../img/showcase.jpg") no-repeat; */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.pandey {
+  font-family: "Farro", sans-serif;
+}
